@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.title{
+  font-size: 80px;
+  color: aqua;
+  font-family: 'Dancing Script', cursive;
+  margin: 0;
+}
+
+.text{
+  margin: 0px;
+  font-size: 50px;
+  color: white;
+  font-family: 'Dancing Script', cursive;
+font-family: 'Shadows Into Light', cursive;
+  
+}
