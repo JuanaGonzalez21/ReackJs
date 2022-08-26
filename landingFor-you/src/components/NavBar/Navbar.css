@@ -1,6 +1,7 @@
 .navprincipal {
     background-color: rgb(204, 255, 248) ;
-    font-size: 30px;
+    font-size: 25px;
+    
 }
 
 
@@ -10,6 +11,7 @@
 }
 
 .nav-item a{
+    padding-top: 15px;
     color:black;
     font-family: 'Courgette', cursive;  
 }
@@ -26,6 +28,11 @@ li{
 
 .nav-item a:hover{
     color: black;
+}
+
+.carrito {
+    margin: 0px;
+    margin-right: 0px;
 }
 
 .iconoMenu{
@@ -52,8 +59,12 @@ li{
     height: 700px;
     
 }
+
+.tamañoEspacio{
+    width: 100%;
+}
 .centrado {
-    width: 70%;
+    width: 500px;
     position: absolute;
     top: 30%;
     left: 80%;

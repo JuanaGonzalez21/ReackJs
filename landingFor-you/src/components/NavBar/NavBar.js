@@ -8,13 +8,14 @@ import icono1 from "./menu.png";
 import icono2 from "./lapiz.png";
 import icono3 from "./ubicacion.png";
 import icono4 from "./usuario.png";
+import añadir from "./anadir-al-carrito.png";
 import CartWidget from "../CartWidget/CartWidget";
 
 const NavBar = () => {
   return (
     <header>
-      <nav className="navbar navbar-light  navprincipal ">
-        <div className="container-fluid d-flex justify-content-between ">
+      <nav className="navbar navbar-light  navprincipal d-flex justify-content-between">
+        <div className="container-fluid  ">
           <CartWidget />
           <ul className="nav">
             <li className="nav-item d-flex justify-content-start">
@@ -45,15 +46,16 @@ const NavBar = () => {
                 Mi cuenta
               </a>
             </li>
- 
+            
           </ul>
+          <img src={añadir} className= "iconoMenu carrito"></img>
         </div>
       </nav>
 
     {/* Fondo con navegación */}
 
     <div class="cover-container"  >
-            <div class="mx-auto">
+            <div class="mx-auto tamañoEspacio">
                 <div class="contenedor contenedor-img">
                 <img src={image3} class="img-fluid imagen_tamaño" alt="..."></img>
              <div class="centrado">   
